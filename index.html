@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Hello World!</title>
-        <meta name="viewport" content="initial-scale"=1.0, user-scalable=no">
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no">
         <meta charset="utf-8">
         <style> html,body,#map_canvas{height:100%;margin:0px;padding:0px}
         </style>
@@ -10,7 +10,7 @@
             var map;
             function initialize(){
                 var mapOptions={
-                    zoom=12,
+                    zoom:12,
                     center:new google.maps.LatLng(40.758904,-73.985128)
                 };
                 map=new google.maps.Map(document.getElementById('map_canvas'),mapOptions);
